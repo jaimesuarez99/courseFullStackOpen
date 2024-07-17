@@ -13,9 +13,11 @@ sequenceDiagram
     user->>browser: clicks the save button
     activate browser
     browser->>server: POST the form data {note:Hellow!} to https://studies.cs.helsinki.fi/exampleapp/new_note
+    deactivate browser
     activate server
-    server->>browser:  HTTP 302; redirect to /exampleapp/notes
+    server->>browser: HTTP 302; redirect to /exampleapp/notes
     deactivate server
+    activate browser
     browser->>user: reload the page.
     deactivate browser
 
