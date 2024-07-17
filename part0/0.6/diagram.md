@@ -1,5 +1,5 @@
 ADD A NEW NOTE SEQUENCE IN SPA
-
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -19,3 +19,4 @@ sequenceDiagram
     server->>browser:  {"message":"note created"}
     deactivate server
     deactivate browser
+```
