@@ -1,9 +1,9 @@
 ADD A NEW NOTE SEQUENCE
 ```mermaid
 sequenceDiagram
+    participant user
     participant browser
     participant server
-    participant user
 
     user->>browser: fills the input with a new note
     activate browser
