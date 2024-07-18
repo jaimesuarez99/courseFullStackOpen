@@ -1,0 +1,46 @@
+#not necc folders
+/part1/1.*/
+ 
+
+ # Node.js dependencies
+/node_modules
+npm-debug.log
+
+# Logs
+logs
+*.log
+*.log.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build directories
+/dist
+/build
+/out
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage reports
+coverage
+*.lcov
+
+# Other common files to ignore
+*.swp
+*.lock
